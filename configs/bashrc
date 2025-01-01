@@ -1,0 +1,9 @@
+# .bashrc configuration file from devsetup-mint
+source ~/.bashrc-shell
+source ~/.bashrc-aliases
+source ~/.bashrc-prompt
+source ~/.bashrc-init
+
+# Editor used by CLI
+export EDITOR="nano"
+export SUDO_EDITOR="$EDITOR"
