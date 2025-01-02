@@ -5,7 +5,11 @@ sudo apt install -y fzf ripgrep bat eza zoxide plocate btop apache2-utils fd-fin
 
 # bat installs as batcat on Linux Mint.  Setup an alias locally
 mkdir -p ~/.local/bin
-ln -sf /usr/bin/batcat ~/.local/bin/bat
+
+if [ ! -L "$HOME/.local/bin/bat" ]; then
+    echo "[DEBUG] Creating bat link"
+    ln -s /usr/bin/batcat ~/.local/bin/bat
+fi
 
 # Notes:
 # fzf - a command line fuzzy finder

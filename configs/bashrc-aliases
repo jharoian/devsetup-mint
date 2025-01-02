@@ -1,3 +1,5 @@
+# .bashrc-aliases configuration file from devsetup-mint
+
 # File system
 alias ls='eza -lh --group-directories-first --icons'
 alias lsa='ls -a'

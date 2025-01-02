@@ -1,3 +1,5 @@
+# .bashrc-shell configuration file from devsetup-mint
+
 # History control
 shopt -s histappend
 HISTCONTROL=ignoreboth
