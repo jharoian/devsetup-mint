@@ -19,7 +19,6 @@ alias n='nano'
 alias g='git'
 alias d='docker'
 alias r='rails'
-alias cat='bat'
 alias lzg='lazygit'
 alias lzd='lazydocker'
 
