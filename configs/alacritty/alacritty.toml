@@ -1,0 +1,7 @@
+# Alacritty does not support ENV variable expansion, but does support ~ for $HOME
+import = [	"~/.config/alacritty/theme.toml", 
+		"~/.config/alacritty/font.toml", 
+		"~/.config/alacritty/font-size.toml", 
+		"~/.config/alacritty/defaults/alacritty.toml" 
+	 ]
+

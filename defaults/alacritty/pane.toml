@@ -1,0 +1,5 @@
+import = [ "$HOME/.config/alacritty/theme.toml", "$HOME/.config/alacritty/font.toml", "$HOME/.config/alacritty/font-size.toml", "$HOME/.config/alacritty/defaults/alacritty.toml" ]
+
+[window]
+padding.x = 30
+padding.y = 30
