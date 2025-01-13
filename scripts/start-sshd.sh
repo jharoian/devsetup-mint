@@ -6,10 +6,10 @@
 # Exit script on error
 set -e
 
-echo "Starting SSH server install\n"
+echo "Starting SSH server install..."
 
 # Install ssh server
-sudo apt install openssh-server
+sudo apt-get install openssh-server
 
 # Enable service to survive restart
 sudo systemctl enable ssh
@@ -17,4 +17,4 @@ sudo systemctl enable ssh
 # Start service
 sudo systemctl start ssh
 
-echo "\nSSH enabled and system ready for cdist deployment"
+echo "...SSH enabled and system ready for cdist deployment"
